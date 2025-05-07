@@ -20,15 +20,15 @@ q.remove("y");
 q.removeFirst();
 q.removeLast();
 q.clear();// xóa tất cả hàng đợi
-q.forEach((i){
+for (var i in q) {
   print(i);
-});
+}
 check.addAll(test);
 check.add(1);
 check.add(1.67);
-check.forEach((i){
+for (var i in check) {
   print(i);
-});
+}
 // lấy 1 phần tử trong hàng đợi
 print("-----------------");
 print(check.elementAt(3));

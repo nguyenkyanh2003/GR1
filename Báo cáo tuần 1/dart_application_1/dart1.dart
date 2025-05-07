@@ -5,9 +5,8 @@ main()
   print(a.runtimeType);
   a=5;
   print(a);
-var b;
-print(b);// mac dinh var giong dynamic
-print(b.runtimeType);
+Object b;
+
 b=5;
 print(b.runtimeType);
 b="Anh";

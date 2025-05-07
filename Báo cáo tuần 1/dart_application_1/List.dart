@@ -55,15 +55,15 @@ List1.removeLast();// xóa vị trí cuối
 List1.removeRange(2, 3);// xóa từ vị trí thứ 2 đến vị trí thứ 3
 // List1.clear();// xóa danh sách
 print(List1.length);
-List1.reversed.forEach((i){
+for (var i in List1.reversed) {
   print(i);
-});// in ngược chiều danh sách
+}// in ngược chiều danh sách
 /* List1.forEach((i){
   print(i);
 });
  */
-list2.forEach((i){
+for (var i in list2) {
   print(i.runtimeType);
   print(i);
-});
+}
 }

@@ -17,6 +17,8 @@ void main()
   ));
 }
 class UI extends StatelessWidget{
+  const UI({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -43,7 +45,7 @@ class UI extends StatelessWidget{
            child: Text('Flutter 1',style: TextStyle(fontSize: 10),
            )
            ),
-            Container(
+            SizedBox(
               height: 100,
               child: ElevatedButton(
                         onPressed: (){},

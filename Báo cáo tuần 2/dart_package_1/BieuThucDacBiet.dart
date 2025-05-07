@@ -19,7 +19,9 @@ numbers..add(1)..add(2)..add(3);
 // numbers.forEach((number){
 //   print(number);
 // });
-numbers.forEach((i)=> print(i));
+for (var i in numbers) {
+  print(i);
+}
   print(name);
 
 }

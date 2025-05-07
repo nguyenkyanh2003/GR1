@@ -5,13 +5,13 @@ class Dog{
   late String _color;
   // có thể khai báo: Dog(this.name,this.age,this.color)
   Dog(String name, int age,String color){
-     this._name = name;
-     this._age = age;
-     this._color = color;
+     _name = name;
+     _age = age;
+     _color = color;
 
   }
   void bark(){
-  print("${this._name} is saying 'go go'");
+  print("$_name is saying 'go go'");
   }
  // Getter để truy cập từ bên ngoài.
  String get name => _name;
@@ -38,7 +38,7 @@ class Dog{
   }
   set color(String color)
   {
-    this._color = color;
+    _color = color;
   }
 
   }

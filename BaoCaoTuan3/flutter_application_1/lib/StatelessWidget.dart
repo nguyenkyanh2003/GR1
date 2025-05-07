@@ -11,7 +11,7 @@ void main()
 }
 class MyWidge extends StatelessWidget{// Khi ko co tuong tac voi ng dung
   final bool loading;
-  MyWidge(this.loading);
+  const MyWidge(this.loading, {super.key});
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

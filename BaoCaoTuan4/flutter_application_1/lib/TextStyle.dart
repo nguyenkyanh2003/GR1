@@ -14,6 +14,8 @@ void main()
   ));
 }
 class myWdiget extends StatelessWidget{
+  const myWdiget({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

@@ -1,6 +1,4 @@
-import 'dart:io';
 import 'People.dart';
-import 'Person.dart';
 class User extends People{
  int id = 0;
  String name = '';
