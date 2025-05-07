@@ -11,6 +11,8 @@ void main(){
   ));
 }
 class UI extends StatelessWidget{
+  const UI({super.key});
+
   @override
   Widget build(Object context) {
     // TODO: implement build
@@ -33,7 +35,7 @@ class UI extends StatelessWidget{
       
         )
         ),
-         Container(
+         SizedBox(
           width: 200,
            child: ElevatedButton(onPressed: (){},
                    style: ElevatedButton.styleFrom(

@@ -11,9 +11,9 @@ print(Persion.values.last); // phần tử đầu tiên
 print(Persion.values.isEmpty);//check có null hay k?
 print(Persion.values.isNotEmpty);//check xem có chống hay k?
 
-Persion.values.forEach((a){
+for (var a in Persion.values) {
    print(a.name);// in ra tên trong enum
-});// gióng vòng lặp for để in ra từng phần tử
+}// gióng vòng lặp for để in ra từng phần tử
 print("switch");
 var name = Persion.tin;
    switch(name){

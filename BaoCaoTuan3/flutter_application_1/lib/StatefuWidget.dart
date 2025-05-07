@@ -15,7 +15,7 @@ void main()
 class MyWdiget2 extends StatefulWidget{// co tuong tac voi ng dung
   final bool loading;
 
- MyWdiget2(  this.loading);
+ const MyWdiget2(  this.loading, {super.key});
  
   @override
   State<StatefulWidget> createState() {

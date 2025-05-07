@@ -11,7 +11,7 @@ class Fraction {
   }
 
   void printF(){
-  print("${_tuSo}/${_mauSo}");
+  print("$_tuSo/$_mauSo");
   }
 
 }

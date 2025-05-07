@@ -11,6 +11,8 @@ void main()
   ));
 }
 class UI extends StatelessWidget{
+  const UI({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

@@ -11,6 +11,8 @@ void main(){
    ));
 }
 class MyWidget extends StatelessWidget{
+  const MyWidget({super.key});
+
   @override
   Widget build(Object context) {
     // TODO: implement build

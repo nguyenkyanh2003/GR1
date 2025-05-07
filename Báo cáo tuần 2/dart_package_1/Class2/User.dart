@@ -10,12 +10,12 @@ class User{
   int get id => _id;
   set id(int id)
   {
-    this._id = id;
+    _id = id;
   }
   String get name => _name;
   set name(String name)
   {
-    this._name = name;
+    _name = name;
   }
   void logInfor()
   {

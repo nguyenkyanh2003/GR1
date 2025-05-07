@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/TextStyle.dart';
 
 void main(){
 runApp(MaterialApp(
@@ -12,6 +11,8 @@ runApp(MaterialApp(
 ));
 }
 class MyWidget extends StatefulWidget{
+  const MyWidget({super.key});
+
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
