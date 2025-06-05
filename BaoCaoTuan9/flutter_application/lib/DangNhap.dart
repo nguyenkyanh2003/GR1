@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/DangKy.dart';
-import './QuanLy.dart';
+import './screens/QuanLy.dart';
 import 'package:flutter_localizations/flutter_localizations.dart'; // Thêm để hỗ trợ localization
 
 void main() {

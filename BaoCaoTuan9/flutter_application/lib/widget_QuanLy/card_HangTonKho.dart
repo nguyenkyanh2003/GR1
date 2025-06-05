@@ -28,27 +28,6 @@ class CardHangtonkho extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "Tổng tiền hàng",
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                Text(
-                  data['inventoryTotal'],
-                  style: const TextStyle(
-                    fontSize: 16,
-                    color: Color.fromARGB(255, 255, 64, 134),
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ],
-            ),
-            const Divider(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Text(
                   "Số lượng hàng",
                   style: TextStyle(
                     fontSize: 16,
@@ -61,6 +40,27 @@ class CardHangtonkho extends StatelessWidget {
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                     color: Color.fromARGB(255, 255, 7, 106),
+                  ),
+                ),
+              ],
+            ),      
+            const Divider(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text(
+                  "Tổng tiền hàng",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  data['inventoryTotal'],
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Color.fromARGB(255, 255, 64, 134),
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ],

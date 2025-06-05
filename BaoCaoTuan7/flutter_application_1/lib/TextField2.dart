@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 void main()
 {
@@ -37,6 +36,8 @@ void main()
   ));
 }
 class UI extends StatefulWidget {
+  const UI({super.key});
+
   @override
   State<StatefulWidget> createState() => _UI();
 }

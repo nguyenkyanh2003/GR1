@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-Widget buildIconButton(IconData icon, Color color, String label) {
+Widget buildIconButton(IconData icon, Color color, String label,{required VoidCallback onPressed}) {
   return Column(
     mainAxisSize: MainAxisSize.min,
     children: [
       IconButton(
         icon: Icon(icon, color: color),
-        onPressed: () {},
+        onPressed: onPressed,
       ),
       Text(
         label,
